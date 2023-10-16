@@ -8,7 +8,7 @@ Approach:
 2-> Then make a function findConcatenatedWords() to find concatenate words here we store all words in the form of a set data structure so that it can avoid duplicate words and
 list data structure to store all words after iterating all words in the list we make a function check().
 
-3-> check() method is used to check whether the concatenate or not, if exists return true otherwise return false. Here divide the word and store its prefix and suffix variable
+3-> check() method is used to check whether the concatenate or not, if exists return true otherwise return false. Here divide the word and store into the prefix and suffix variable
 and check if prefix and suffix contains in the set or call the function check again so that it checks all words in the set and after satisfying the condition it returns true 
 otherwise returns false.
 
