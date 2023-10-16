@@ -9,10 +9,10 @@ Approach:
 list data structure to store all words after iterating all words in the list we make a function check().
 
 3-> check() method is used to check whether the concatenate or not, if exists return true otherwise return false. Here divide the word and store into the prefix and suffix variable
-and check if prefix and suffix contains in the set or call the function check again so that it checks all words in the set and after satisfying the condition it returns true 
+and check if prefix and suffix contains in the set and call the function check again so that it checks all words in the set and after satisfying the condition it returns true 
 otherwise returns false.
 
 4-> And add words in the ans arraylist. Finally, it returns and stores to the answers arraylist. declare maxLength, longest, and sec_longest variables where applying for loop 
-to iterate to the answords and check the condition if the answords length is greater than equal to the max length, store words into the longest var and second largest to the sec_longest variable, then print all these things in the console or display all outputs to the console.
+to iterate to the answords and check the condition if the answords length is greater than equal to the max length, store longest word into the longest variable and second longest word to the sec_longest variable, then print all these things in the console or display all outputs to the console.
 
-5->insertion of trie take O(n) and arraylist take O(1) and set take O(log n)
+5->insertion of trie take O(n) and arraylist take O(1) and set take O(log n) time complexity.
